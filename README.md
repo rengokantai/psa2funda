@@ -24,3 +24,14 @@ import 'rxjs/add/observable/do';
 import 'rxjs/add/observable/map';
 import 'rxjs/add/observable/filter';
 ```
+app.module.ts
+```
+import './rxjs-extensions';
+```
+
+###5 Enabling Production Mode
+main.ts
+```
+import {enableProdMode} from '@angular/core';
+enableProdMode();
+```
